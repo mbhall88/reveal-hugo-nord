@@ -7,7 +7,7 @@
   - [Logo](#logo)
 
 
-# Nord-theme reveal-hugo template
+# Nordtheme reveal-hugo template
 
 This repository is a template for a minimal [nord-themed][nord-theme] [reveal.js][revealjs] presentation.  
 
