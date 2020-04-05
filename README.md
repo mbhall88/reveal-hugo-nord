@@ -133,6 +133,28 @@ with `weight = 11` it will come after `content/home/method.md`. See [this][weigh
 For more information on sections, see [the docs][sections].
 
 
+## Maths
+
+Maths rendering with [MathJax][mathjax] is supported provided you have access to an internet connection when initially serving the slides.
+
+In short, you write equations in [Tex/LaTex format][texmaths].
+
+An example of adding an equation to a slide
+
+```md
+## Cool equations
+
+Displayed equations are wrapped in double-\$
+
+$$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$  
+
+Inline equations like $E=mc^2$ are wrapped in single-\$
+
+```
+
+![Equation slide](static/images/maths.png?raw=true)
+
+
 ## Theme/Styling
 
 If you would like to make any changes to the font, colours, style etc. then this can be
@@ -162,3 +184,5 @@ instructions can be found in [this short tutorial][reveal-hugo-logo].
 [reveal-hugo-logo]: https://reveal-hugo.dzello.com/logo-example/#/
 [sections]: https://github.com/dzello/reveal-hugo#root-vs-section-presentations
 [gh-template]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
+[texmaths]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
+[mathjax]: https://www.mathjax.org/

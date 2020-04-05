@@ -4,15 +4,16 @@
 <div class="line left"></div>
 <div class="line right"></div>
 
-<!-- Add the EBI logo to all slides -->
-<img id="logo" src="{{ .Param "logo.src" }}" alt="{{ .Param "logo.alt" }}">
-
-<!-- Position the logo -->
-<style>
-  #logo {
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
-    width: 200px;
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
   }
-</style>
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
