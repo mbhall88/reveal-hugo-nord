@@ -3,6 +3,7 @@
 - [Usage](#usage)
   - [Serve](#serve)
   - [Edit](#edit)
+  - [Maths](#maths)
   - [Theme/Styling](#themestyling)
   - [Logo](#logo)
 
