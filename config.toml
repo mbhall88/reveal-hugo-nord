@@ -1,0 +1,15 @@
+languageCode = "en-gb"
+title = "My presentation"
+theme = "reveal-hugo"
+relativeURLs = true
+uglyURLs = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params.reveal_hugo]
+custom_theme = "stylesheets/robot-lung-nord.css"
+margin = 0.13333
+highlight_theme = "nord"

@@ -1,0 +1,18 @@
+<!-- Add the coloured border to all slides -->
+<div class="line top"></div>
+<div class="line bottom"></div>
+<div class="line left"></div>
+<div class="line right"></div>
+
+<!-- Add the EBI logo to all slides -->
+<img id="logo" src="{{ .Param "logo.src" }}" alt="{{ .Param "logo.alt" }}">
+
+<!-- Position the logo -->
+<style>
+  #logo {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    width: 200px;
+  }
+</style>
